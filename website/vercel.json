@@ -1,8 +1,5 @@
 {
   "buildCommand": "npm run build",
   "outputDirectory": ".next",
-  "framework": "nextjs",
-  "env": {
-    "NEXT_PUBLIC_HF_SPACE_URL": "@hf_space_url"
-  }
+  "framework": "nextjs"
 }
