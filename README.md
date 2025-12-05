@@ -1,5 +1,7 @@
 # Terrain-Aware Synthetic Aperture Radar Image (SAR) to RGB Colorization through Automated Terrain Classification using Conditional Generative Adversarial Network (GAN)
 
+**🌐 Live Demo**: [Try it on HuggingFace Spaces](https://huggingface.co/spaces/sar-image-colorizer/NASAR-SARImageColorization)
+
 ## 🛰️ Overview
 
 This project implements a deep learning system for translating Synthetic Aperture Radar (SAR) imagery into realistic RGB images. A pretrained ResNet34 Model is finetuned to classify different terrains for SAR Images. Integrating the ResNet34 Model with a conditional Generative Adversarial Network (GAN) architecture, the model can generate colorized versions of SAR data that closely resemble aerial/satellite photography.
@@ -92,20 +94,7 @@ The second column represents the ground truth images of all the input SAR Images
 SAR Input Image provided by the user and the corresponding output colorized image provided by our model.
 
 
-### Docker Usage
 
-To build and run the project in a Docker container:
-
-```bash
-# Build the Docker image
-docker build -t sar-image-translation .
-
-# Run the container (default runs SAR_UNET_PATCHGAN.py)
-docker run --rm -it sar-image-translation
-
-# To run other scripts, override the command:
-docker run --rm -it sar-image-translation python SAR_UNET_PATCHGAN.py
-```
 
 
 

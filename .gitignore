@@ -27,8 +27,7 @@ _1/
 __pycache__/
 checkpoints/
 samples/
-best_discriminator.pth
-best_generator.pth
+*.pth
 optimization_checkpoint_1 (2).pkl
 SAR_Literature_Review.xlsx
 terrain_classifier_checkpoints/
